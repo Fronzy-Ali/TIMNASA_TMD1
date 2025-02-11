@@ -1,0 +1,6 @@
+services:
+  - name: lucky-md
+    type: web
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
